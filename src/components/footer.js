@@ -18,10 +18,10 @@ export default function Footer() {
             <Github className="h-5 w-5" />
             <span className="sr-only">GitHub</span>
           </Button>
-          <Link href="/about" variant="ghost" size="sm" className="rounded-full hover:bg-blue-500/5 hover:text-blue-500">
+          <Link href="/About" variant="ghost" size="sm" className="rounded-full hover:bg-blue-500/5 hover:text-blue-500">
             About
           </Link>
-          <Link href="/contact" variant="ghost" size="sm" className="rounded-full hover:bg-blue-500/5 hover:text-blue-500">
+          <Link href="/Contact" variant="ghost" size="sm" className="rounded-full hover:bg-blue-500/5 hover:text-blue-500">
             Contact
           </Link>
         </div>
