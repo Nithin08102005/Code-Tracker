@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button"
-import { Github } from "lucide-react"
-import { Code } from "lucide-react"
-import Link from "next/link"
+import { Button } from "@/components/ui/button";
+import { Github } from "lucide-react";
+import { Code } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -11,21 +11,37 @@ export default function Footer() {
           <Code className="h-5 w-5 text-blue-500 mr-2" />
           <p className="text-sm font-medium">CodeTracker</p>
           <span className="mx-2 text-muted-foreground">|</span>
-          <p className="text-sm text-muted-foreground">© 2025 All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">
+            © 2025 All rights reserved.
+          </p>
         </div>
         <div className="flex space-x-4">
-          <Button variant="ghost" size="icon" className="rounded-full hover:bg-blue-500/5 hover:text-blue-500">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="rounded-full hover:bg-blue-500/5 hover:text-blue-500"
+          >
             <Github className="h-5 w-5" />
             <span className="sr-only">GitHub</span>
           </Button>
-          <Link href="/about" variant="ghost" size="sm" className="rounded-full hover:bg-blue-500/5 hover:text-blue-500">
+          <Link
+            href="/About"
+            variant="ghost"
+            size="sm"
+            className="rounded-full hover:bg-blue-500/5 hover:text-blue-500"
+          >
             About
           </Link>
-          <Link href="/contact" variant="ghost" size="sm" className="rounded-full hover:bg-blue-500/5 hover:text-blue-500">
+          <Link
+            href="/Contact"
+            variant="ghost"
+            size="sm"
+            className="rounded-full hover:bg-blue-500/5 hover:text-blue-500"
+          >
             Contact
           </Link>
         </div>
       </div>
     </footer>
-  )
+  );
 }
