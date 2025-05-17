@@ -152,7 +152,7 @@ export default function Home() {
             </p>
             
             {/* Feature Tags */}
-            <div className="flex flex-wrap gap-2 mt-9">
+            <div className="flex flex-wrap gap-2 mt-4">
               <span className="text-xs px-2 py-1 bg-blue-500/5 text-blue-500 rounded-full">Custom Collections</span>
               <span className="text-xs px-2 py-1 bg-blue-500/5 text-blue-500 rounded-full">Difficulty Tags</span>
               <span className="text-xs px-2 py-1 bg-blue-500/5 text-blue-500 rounded-full"> Notes</span>
