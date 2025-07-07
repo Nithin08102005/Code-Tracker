@@ -1,4 +1,4 @@
-🚀 CodeTracker
+#🚀 CodeTracker
 CodeTracker is a fullstack web application that helps competitive programmers organize their coding profiles, monitor contests, and manage personal problem-solving logs—all from a sleek, unified dashboard.
 
 Built using Next.js, Supabase, and modern UI tools like Tailwind CSS and shadcn/ui, CodeTracker delivers a responsive, dark-mode-friendly experience for programmers who love clean design and performance.
