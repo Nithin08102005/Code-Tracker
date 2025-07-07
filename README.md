@@ -1,49 +1,65 @@
-# 🚀 CodeTracker
+🚀 CodeTracker
+CodeTracker is a fullstack web application that helps competitive programmers organize their coding profiles, monitor contests, and manage personal problem-solving logs—all from a sleek, unified dashboard.
 
-_CodeTracker_ is a fullstack web application built using **Next.js** that helps competitive programmers keep track of their journey. From managing coding profiles and monitoring contests to storing detailed problem logs—CodeTracker centralizes it all in a clean, dark-mode-ready interface.
+Built using Next.js, Supabase, and modern UI tools like Tailwind CSS and shadcn/ui, CodeTracker delivers a responsive, dark-mode-friendly experience for programmers who love clean design and performance.
 
----
+🛠 Tech Stack
+Frontend: Next.js, React.js, Tailwind CSS, shadcn/ui
 
-## 🔧 Tech Stack
+Backend & Auth: Supabase
 
-- **Frontend**: Next.js, React.js, TailwindCSS, shadcn/ui
-- **Backend/Database/Auth**: Supabase
-- **Design**: Fully responsive layout with dark mode support
+Database: Supabase PostgreSQL
 
----
+Deployment: Vercel (Recommended)
 
-## 📌 Features
+📌 Features
+👤 Profile Page
+View and update handles from Codeforces, CodeChef, and LeetCode
 
-### 👤 Profile Page
-- Link your handles from Codeforces, CodeChef, and LeetCode
-- View consolidated statistics from all three platforms
+See your coding profile data from all 3 platforms in one place
 
-### 📅 Contest Page
-- View upcoming contests from multiple platforms
-- Add events to your calendar with one click
+📅 Contest Tracker
+View upcoming contests from Codeforces, CodeChef, and LeetCode
 
-### 📚 Problems Vault
-- Store problems with:
-  - Name, URL, Platform
-  - Tags, Difficulty
-  - Status, Time & Space Complexities
-  - Notes, Starred flag
-- Advanced filtering across all metadata
-- Toggle tag visibility
-- View personal problem-solving analytics
+Add contests to your calendar instantly
 
----
+📚 Problems Vault
+Store detailed problem metadata:
 
-## 🚀 Getting Started
+Name, URL, Platform
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Tags, Difficulty
 
-### 📦 Installation
+Status, Time & Space Complexities
 
-```bash
+Notes, Starred flag
+
+Powerful filtering and tag visibility controls
+
+View personal statistics based on filters
+
+🚀 Getting Started
+This is a Next.js project bootstrapped with create-next-app.
+
+📦 Installation
+bash
 # Clone the repository
-git clone https://github.com/your-username/codetracker.git
-cd codetracker
+git clone https://github.com/Nithin08102005/Code-Tracker.git
+cd Code-Tracker
 
 # Install dependencies
 npm install
+🔐 Environment Variables
+Create a .env.local file in the root and add:
+
+env
+NEXT_PUBLIC_SUPABASE_URL=https://nvvveuokzshlcvqqqpvj.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here
+Replace your_anon_key_here with your actual Supabase anon key.
+
+▶️ Running the App
+bash
+npm run dev
+# or
+yarn dev
+Open http://localhost:3000 to see it live.
